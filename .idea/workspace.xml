@@ -1,37 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7711c59f-61de-4f73-ada8-d2aaf05d9f82" name="Default" comment="add build">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building1-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building2-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building3-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building4-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/city-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/city1-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/city2-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/city3-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/height_man-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/tower1-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/img/towers-min.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Portfolio/Apatments/build/main.min.css" />
+    <list default="true" id="7711c59f-61de-4f73-ada8-d2aaf05d9f82" name="Default" comment="delete junk">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/building-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/building2-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/building3-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/building4-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/city-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/city1-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/city2-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/height_man-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/img/towers-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/building-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/building2-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/building3-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/building4-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/city-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/city1-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/city2-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/height_man-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/towers-min.jpeg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.gitignore" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/.name" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/Apartments.iml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/Apartments.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/misc.xml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/modules.xml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/watcherTasks.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Portfolio/Apartments/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/all.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/all.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Black.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-BlackItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-BlackItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-BoldItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Italic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-LightItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-MediumItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-MediumItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-Thin.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/Roboto/Roboto-ThinItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/Roboto/Roboto-ThinItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/img/building1-min.jpeg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/img/building1-min.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/img/city3-min.jpeg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/img/city3-min.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/img/house.png" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/img/house.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/img/tower1-min.jpg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/img/tower1-min.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/build/main.min.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/gulpfile.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/index.html" afterPath="$PROJECT_DIR$/Portfolio/Apartments/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/package.json" afterPath="$PROJECT_DIR$/Portfolio/Apartments/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/css/main.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/LICENSE.txt" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Black.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-BlackItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-BlackItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-BoldItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Italic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-LightItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-MediumItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-MediumItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-Thin.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/Roboto/Roboto-ThinItalic.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/Roboto/Roboto-ThinItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/fonts/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/building1-min.jpeg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/img/building1-min.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/city3-min.jpeg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/img/city3-min.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/house.png" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/img/house.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/img/tower1-min.jpg" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/img/tower1-min.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/js/script.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/js/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/libs/animate.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/libs/animate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/libs/jquery.min.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/libs/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/libs/wow.min.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/libs/wow.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/main.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/main.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/block1.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/block1.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/block2.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/block2.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/block3.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/block3.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/common.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/common.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/container.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/container.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/fonts.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/fonts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/footer.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/footer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/header.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/header.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/links.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/links.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/mixins.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/vars.scss" afterPath="$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/vars.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Apatments/.gitignore" afterPath="$PROJECT_DIR$/Portfolio/Apatments/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,11 +107,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/.gitignore">
+      <file leaf-file-name="block1.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/block1.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/libs/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="1027" column="0" lean-forward="false" selection-start-line="1027" selection-start-column="0" selection-end-line="1027" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -66,6 +167,9 @@
       <list>
         <option value="$PROJECT_DIR$/Portfolio/Apatments/index.html" />
         <option value="$PROJECT_DIR$/Portfolio/Apatments/.gitignore" />
+        <option value="$PROJECT_DIR$/Portfolio/Apatments/build/main.min.css" />
+        <option value="$PROJECT_DIR$/Portfolio/Apatments/src/scss/parts/block1.scss" />
+        <option value="$PROJECT_DIR$/Portfolio/Apartments/src/libs/animate.css" />
       </list>
     </option>
   </component>
@@ -76,7 +180,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/Portfolio/Apatments/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Portfolio/Apartments/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -117,7 +221,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Apatments" />
+              <option name="myItemId" value="Apartments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fromery.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fromery.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apartments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fromery.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fromery.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Apartments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -138,6 +290,7 @@
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio\Apartments\src\img" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Apatments" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io" />
     </key>
@@ -228,7 +381,7 @@
       <updated>1500979929479</updated>
       <workItem from="1500979931380" duration="7000" />
       <workItem from="1500980732538" duration="208000" />
-      <workItem from="1500981201077" duration="2890000" />
+      <workItem from="1500981201077" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1500983193729</created>
@@ -237,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500983193729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add build">
+      <created>1500985376958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500985376958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3105000" />
+    <option name="totallyTimeSpent" value="5274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,14 +415,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -284,22 +445,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="add build" />
+    <MESSAGE value="delete junk" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete junk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="34" lean-forward="false" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/css/main.css">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -307,47 +462,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/house.png">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/house.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/city-min.jpeg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/city-min.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/city2-min.jpg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/city2-min.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/city1-min.jpeg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/city1-min.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/city3-min.jpeg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/city3-min.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/tower1-min.jpg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/tower1-min.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/building-min.jpeg">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/towers-min.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/img/towers-min.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/src/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
@@ -355,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/index.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
@@ -363,10 +513,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apatments/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4629" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/block1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/scss/parts/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/img/building-min.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/libs/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/src/libs/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="1027" column="0" lean-forward="false" selection-start-line="1027" selection-start-column="0" selection-end-line="1027" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
           <folding />
         </state>
       </provider>
