@@ -1,0 +1,83 @@
+/*Edge*/
+@supports ( -ms-accelerator:true )
+{
+  html{
+    overflow: hidden;
+    height: 100%;
+  }
+  body{
+    overflow: auto;
+    height: 100%;
+  }
+}
+/*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+{
+  html{
+    overflow: hidden;
+    height: 100%;
+  }
+  body{
+    overflow: auto;
+    height: 100%;
+  }
+}
+
+
+
+.block1 {
+  //height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: $bgGrey;
+  overflow: hidden;
+
+  &__contentLeft {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+
+    @media screen and(min-width: 768px) {
+      width: 60%;
+      padding:20px;
+
+    }
+  }
+
+  &__contentRight {
+    display: none;
+
+    @media screen and(min-width: 768px) {
+      display: block;
+      width: 40%;
+    }
+  }
+
+  &__box {
+    padding: 20px;
+    color: $fontDark;
+
+    @media screen and(min-width: 768px) {
+      width: calc(50% - 60px);
+      padding: 30px;
+    }
+  }
+
+  &__title {
+    padding: 5px 0;
+    font-family: "Roboto Bold", sans-serif;
+  }
+
+  &__text {
+    padding: 5px 0;
+  }
+
+  &__img {
+    height: 300px;
+  }
+}

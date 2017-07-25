@@ -1,0 +1,53 @@
+.block2 {
+  height: 100vh;
+  background: url("img/tower1-min.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  &__overlay {
+    height: inherit;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    color: $light;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  }
+
+  &__options {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  &__option {
+    display: block;
+    width: 200px;
+    border: 2px solid $light;
+    padding: 20px 30px;
+    margin: 10px;
+    font-size: 18px;
+    color: $light;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+    @media screen and(min-width: 768px) {
+      width: 300px;
+      margin: 20px;
+    }
+
+    &:hover {
+      background-color: #0093ff;
+      border: 2px solid #0093ff;
+    }
+  }
+}

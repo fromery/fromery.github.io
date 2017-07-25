@@ -1,0 +1,39 @@
+.header {
+  height: 100vh;
+  background: url("img/building1-min.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  &__overlay {
+    height: inherit;
+    background: rgba(0, 0, 0, .5);
+    color: $light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__headline {
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 48px;
+    font-family: Roboto, sans-serif;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  }
+
+  &__arrow {
+    position: relative;
+    top: calc(50% - 110px);
+  }
+}
+
+.fa-angle-down {
+  color: $light;
+  font-size: 70px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

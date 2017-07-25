@@ -1,0 +1,56 @@
+.footer {
+  height: 100vh;
+  background: url("img/city3-min.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  &__overlay {
+    height: inherit;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__heading {
+    padding: 25px 0 15px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+    @media screen and(min-width: 768px) {
+      font-size: 45px;
+    }
+  }
+
+  &__social {
+    padding: 35px 0;
+  }
+
+  &__socLinks {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  &__copyright {
+    padding: 10px 0;
+  }
+
+  &__copyright, &__heading a, .fa-angle-up, .fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin {
+    color: $light;
+  }
+}
+
+.fa-angle-up {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-linkedin {
+  font-size: 36px;
+}
+
+.footer__socLinks a:hover, .footer__heading:hover {
+  opacity: .8;
+}

@@ -1,0 +1,17 @@
+.block3 {
+  //height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $bgGrey;
+
+  &__box {
+    width: 100%;
+    padding: 30px;
+
+    @media screen and(min-width: 768px) {
+      width: 50%;
+    }
+  }
+}
