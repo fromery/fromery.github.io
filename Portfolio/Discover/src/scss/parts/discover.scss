@@ -26,6 +26,8 @@
     @media screen and (min-width: 768px) {
       flex-direction: row;
       align-items: stretch;
+      margin: 10px;
+      padding-bottom: 0;
     }
   }
 
@@ -34,7 +36,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin: 5px 0;
+    margin: 10px 0;
     border: 1px solid #eaeaea;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(207, 207, 207, 1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(207, 207, 207, 1);
@@ -45,13 +47,12 @@
     }
 
     @media screen and (min-width: 768px) {
-      width: 48%;
-      margin: 0.5%;
+      width: 47%;
+      margin: 10px;
     }
 
     @media screen and (min-width: 960px) {
-      width: 47%;
-      margin: 1%;
+      width: 48%;
     }
   }
 

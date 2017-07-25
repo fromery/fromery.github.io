@@ -207,13 +207,17 @@ $headerHeight: 100px;
 .rotateTop {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: 15px;
+  width: 120%;
+  top: 17px;
+  left: -3px;
 }
 
 .rotateBottom {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 15px;
+  width: 120%;
+  top: 17px;
+  left: -3px;
 }
 
 .hideCenter {

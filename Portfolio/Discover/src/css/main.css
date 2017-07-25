@@ -323,13 +323,17 @@ a {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: 15px; }
+  width: 120%;
+  top: 17px;
+  left: -3px; }
 
 .rotateBottom {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 15px; }
+  width: 120%;
+  top: 17px;
+  left: -3px; }
 
 .hideCenter {
   width: 0; }
@@ -383,7 +387,9 @@ a {
         flex-direction: row;
         -webkit-box-align: stretch;
         -ms-flex-align: stretch;
-        align-items: stretch; } }
+        align-items: stretch;
+        margin: 10px;
+        padding-bottom: 0; } }
   .discover__block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -396,7 +402,7 @@ a {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
-    margin: 5px 0;
+    margin: 10px 0;
     border: 1px solid #eaeaea;
     -webkit-box-shadow: 0px 0px 15px 0px #cfcfcf;
     box-shadow: 0px 0px 15px 0px #cfcfcf; }
@@ -404,12 +410,11 @@ a {
       border: 1px solid #d6d6d6; }
     @media screen and (min-width: 768px) {
       .discover__block {
-        width: 48%;
-        margin: 0.5%; } }
+        width: 47%;
+        margin: 10px; } }
     @media screen and (min-width: 960px) {
       .discover__block {
-        width: 47%;
-        margin: 1%; } }
+        width: 48%; } }
   .discover__title {
     font-size: 30px;
     margin: 20px;
