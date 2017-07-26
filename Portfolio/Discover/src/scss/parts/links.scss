@@ -5,7 +5,7 @@ a {
 .btn {
   display: inline-block;
   padding: 13px 40px;
-  @include linear-gradient($paramsbg);
+  background-color: $fontDark;
   @include border-radius(3px);
   text-transform: uppercase;
   color: $light;
@@ -15,55 +15,12 @@ a {
   transition: all .15s ease-in-out;
 
   &:hover {
-    background-color: #cf3444;
+    background-color: $light;
+    color: $fontDark;
   }
 
   @media screen and (max-width: 480px) {
     padding: 13px 20px;
-  }
-}
-.link_red {
-  text-transform: uppercase;
-  font-family: "OpenSans Bold", sans-serif;
-  font-size: 14px;
-  color: red;
-  transition: all .15s ease-in-out;
-
-  /*&:after {
-      display: inline-block;
-      content: '';
-      background: url("../../../img/arrow.svg") no-repeat;
-      -webkit-background-size: 6px 11px;
-      background-size: 6px 11px;
-      width: 6px;
-      height: 11px;
-      margin-left: 5px;
-      margin-bottom: 2px;
-      vertical-align: middle;
-  }
-*/
-}
-
-.link {
-  font-family: "OpenSans Bold", sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  transition: all .15s ease-in-out;
-
-  &_white {
-    color: $light;
-  }
-
-  &_whiteBig {
-    font-size: 18px;
-
-    @media screen and (max-width: 960px) {
-      font-size: 14px;
-    }
-  }
-
-  &_red {
-    color: #011034;
   }
 }
 

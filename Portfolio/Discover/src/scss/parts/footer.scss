@@ -1,0 +1,14 @@
+.footer {
+  background-color: #2d2d2d;
+
+  &__copy {
+    padding: 20px 0;
+    text-align: center;
+    color: $light;
+  }
+
+  &__line {
+    height: 5px;
+    background-color: #212121;
+  }
+}

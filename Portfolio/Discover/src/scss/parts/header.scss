@@ -1,11 +1,9 @@
-$headerHeight: 100px;
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: $headerHeight;
+  height: 100px;
   position: fixed;
   z-index: 8000;
   top: 0;
@@ -129,7 +127,7 @@ $headerHeight: 100px;
 
   &__link {
     color: $light;
-    font-size: 14px;
+    font-size: 15px;
     padding: 0 14px;
     transition: all .15s ease-in-out;
 
@@ -137,7 +135,7 @@ $headerHeight: 100px;
       color: #7DB9FF;
       border-bottom: 3px solid #7DB9FF;
       border-top: 3px solid #7DB9FF;
-      padding: 20px 14px;
+      padding: 22px 14px;
     }
   }
 

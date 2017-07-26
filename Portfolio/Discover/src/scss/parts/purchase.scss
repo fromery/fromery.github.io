@@ -1,10 +1,9 @@
 .purchase {
-
   background: url("img/bg_purchase.jpg") no-repeat 50% 0;
   -webkit-background-size: cover;
   background-size: cover;
   border-top: 1px solid $borderInput;
-  margin: 60px auto;
+  margin: 20px auto 0;
 
   @media screen and (max-width: 960px) {
     background-position-x: 44%;
@@ -49,7 +48,7 @@
   &__content {
     width: 386px;
     margin-bottom: 35px;
-    color: $fontDark;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 
     @media screen and (max-width: 1200px) {
       width: 290px;
@@ -67,12 +66,13 @@
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
-    color: $fontDark;
+    color: $light;
   }
 
   &__text {
     margin-top: 22px;
     font-size: 16px;
+    color: $light;
   }
 
   &__form {
@@ -136,7 +136,6 @@
         flex-wrap: nowrap;
       }
     }
-
   }
 
   &__btn-block {
@@ -154,19 +153,7 @@
     padding: 14px 36px;
   }
 
-  &__or {
-    margin: 15px;
-    font-family: "Open Sans Bold", sans-serif;
-    font-size: 14px;
-    color: $fontDark;
-
-    @media screen and (max-width: 320px) {
-      margin: 18px 15px 0;
-    }
-  }
-
   &__link {
-
     @media screen and (max-width: 320px) {
       margin: 18px 15px 0;
     }
