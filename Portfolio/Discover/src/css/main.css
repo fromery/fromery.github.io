@@ -438,18 +438,18 @@ a {
     margin: 0 auto;
     padding: 30px 0 25px; }
   .slider__person-name {
+    padding: 5px 0 2px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     font-weight: bolder;
     text-transform: uppercase;
-    color: #F5A153;
-    padding: 5px 0 2px; }
+    color: #F5A153; }
   .slider__person-title {
-    padding: 2px; }
+    padding: 2px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 
 .purchase {
   background: url("img/bg_purchase.jpg") no-repeat 50% 0;
-  background-size: cover;
-  border-top: 1px solid #dcdfe6;
-  margin: 20px auto 0; }
+  background-size: cover; }
   @media screen and (max-width: 960px) {
     .purchase {
       background-position-x: 44%; } }

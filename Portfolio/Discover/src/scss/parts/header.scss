@@ -13,6 +13,8 @@
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
 
+  &__wrapper {}
+
   &_small {
     height: 70px;
     background-color: rgba(0, 0, 0, 0.6);

@@ -61,13 +61,15 @@ $widthSliderItem: calc(100vw - 100px);
   }
 
   &__person-name {
+    padding: 5px 0 2px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
     font-weight: bolder;
     text-transform: uppercase;
     color: #F5A153;
-    padding: 5px 0 2px;
   }
 
   &__person-title {
     padding: 2px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
   }
 }
