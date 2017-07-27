@@ -12,3 +12,33 @@
     background-color: #212121;
   }
 }
+
+.totop {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #212121;
+  @include border-radius(2px);
+  opacity: .5;
+  bottom: 80px;
+  right: 4%;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &_active {
+    display: block;
+  }
+}
+
+.fa-angle-up {
+  font-size: 50px;
+  color: $light;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(14%, -50%);
+  -ms-transform: translate(14%, -50%);
+  transform: translate(14%, -55%);
+}
