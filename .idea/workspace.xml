@@ -4,13 +4,11 @@
     <list default="true" id="7711c59f-61de-4f73-ada8-d2aaf05d9f82" name="Default" comment="remove border">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/all.js" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/build/all.js" afterPath="$PROJECT_DIR$/Portfolio/Discover/build/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css" afterPath="$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/build/main.min.css" afterPath="$PROJECT_DIR$/Portfolio/Discover/build/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/gulpfile.js" afterPath="$PROJECT_DIR$/Portfolio/Discover/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/index.html" afterPath="$PROJECT_DIR$/Portfolio/Discover/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/src/css/main.css" afterPath="$PROJECT_DIR$/Portfolio/Discover/src/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/src/js/script.js" afterPath="$PROJECT_DIR$/Portfolio/Discover/src/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/links.scss" afterPath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/links.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/discover.scss" afterPath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/discover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss" afterPath="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +36,31 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/Discover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2839">
-              <caret line="221" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
               <folding>
                 <element signature="e#13218#13224#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-578">
+              <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discover.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/discover.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -120,13 +138,15 @@
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/testimonials.scss" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/purchase.scss" />
-        <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss" />
         <option value="$PROJECT_DIR$/Portfolio/Apartments/build/all.js" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/gulpfile.js" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/js/script.js" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/footer.scss" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/index.html" />
         <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/links.scss" />
+        <option value="$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css" />
+        <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/discover.scss" />
+        <option value="$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss" />
       </list>
     </option>
   </component>
@@ -274,72 +294,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Discover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Discover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fromery.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apartments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -355,15 +309,15 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio\Discover\src\img" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio\Discover\build\img" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio\Apartments\src\libs" />
       <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio\Apartments\src\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Sokol\WebstormProjects\fromery.github.io\Portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -465,7 +419,7 @@
       <workItem from="1501016880838" duration="1650000" />
       <workItem from="1501020254236" duration="1483000" />
       <workItem from="1501084497252" duration="10435000" />
-      <workItem from="1501141286874" duration="3581000" />
+      <workItem from="1501141286874" duration="6673000" />
     </task>
     <task id="LOCAL-00001" summary="some changes">
       <created>1500983193729</created>
@@ -551,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501097149087</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change btn background color">
+      <created>1501144928576</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1501144928576</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24808000" />
+    <option name="totallyTimeSpent" value="27900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -568,7 +529,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -576,7 +536,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -610,7 +570,8 @@
     <MESSAGE value="add footer and delete some images" />
     <MESSAGE value="add slider person's name" />
     <MESSAGE value="remove border" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove border" />
+    <MESSAGE value="change btn background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="change btn background color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -735,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4629" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -757,13 +711,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -881,24 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/Discover/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="221" column="0" lean-forward="true" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding>
-            <element signature="e#13218#13224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/links.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -915,10 +844,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/build/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Apartments/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Discover/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding>
+            <element signature="e#13218#13224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/discover.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/Discover/src/scss/parts/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="97" column="14" lean-forward="true" selection-start-line="97" selection-start-column="14" selection-end-line="97" selection-end-column="14" />
           <folding />
         </state>
       </provider>
