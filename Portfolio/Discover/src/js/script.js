@@ -52,8 +52,10 @@ $(function () {
             $headerImg.addClass("header__img_small");
         }
 
-        if ($window.scrollTop() > 50) {
-            $toTop.addClass("totop_active");
+        if ($(window).width() > 767) {
+            if ($window.scrollTop() > 50) {
+                $toTop.addClass("totop_active");
+            }
         }
 
         if ($window.scrollTop() < 50) {
