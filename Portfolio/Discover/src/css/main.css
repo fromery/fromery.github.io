@@ -423,7 +423,11 @@ a {
   .slider__text {
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0 25px; }
+    padding: 30px 0 25px;
+    font-size: 18px; }
+    @media screen and (min-width: 960px) {
+      .slider__text {
+        font-size: 22px; } }
   .slider__person-name {
     padding: 5px 0 2px;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
@@ -433,6 +437,9 @@ a {
   .slider__person-title {
     padding: 2px;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.hidden {
+  display: none; }
 
 .purchase {
   background: url("img/bg_purchase.jpg") no-repeat 50% 0;
