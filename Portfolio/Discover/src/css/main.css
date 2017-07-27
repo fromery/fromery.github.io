@@ -29,10 +29,10 @@ a {
 .btn {
   display: inline-block;
   padding: 13px 40px;
-  background-color: #444c50;
+  background-color: #fff;
   border-radius: 3px;
   text-transform: uppercase;
-  color: #fff;
+  color: #444c50;
   font-family: "OpenSans Bold", sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -40,8 +40,8 @@ a {
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out; }
   .btn:hover {
-    background-color: #fff;
-    color: #444c50; }
+    background-color: #444c50;
+    color: #fff; }
   @media screen and (max-width: 480px) {
     .btn {
       padding: 13px 20px; } }

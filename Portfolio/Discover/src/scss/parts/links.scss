@@ -5,18 +5,18 @@ a {
 .btn {
   display: inline-block;
   padding: 13px 40px;
-  background-color: $fontDark;
+  background-color: $light;
   @include border-radius(3px);
   text-transform: uppercase;
-  color: $light;
+  color: $fontDark;
   font-family: "OpenSans Bold", sans-serif;
   font-size: 14px;
   font-weight: bold;
   transition: all .15s ease-in-out;
 
   &:hover {
-    background-color: $light;
-    color: $fontDark;
+    background-color: $fontDark;
+    color: $light;
   }
 
   @media screen and (max-width: 480px) {

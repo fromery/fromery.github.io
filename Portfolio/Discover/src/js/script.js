@@ -12,6 +12,7 @@ $(function () {
     var $enjoy = $('.headline__enjoy');
     var $enjoySpan = $('.headline__enjoy span');
     var $owl = $('.owl-carousel');
+    var $toTop = $('.totop');
 
 
     function changeMenu () {
@@ -41,7 +42,7 @@ $(function () {
         $topBg.css({'top': $window.scrollTop() / 1.5});
         $enjoy.css({'top': $window.scrollTop() / 2});
 
-        if ($window.scrollTop() == 0) {
+        if ($window.scrollTop() === 0) {
             $header.removeClass("header_small");
             $headerImg.removeClass("header__img_small");
         }
@@ -51,7 +52,6 @@ $(function () {
             $headerImg.addClass("header__img_small");
         }
     });
-
 
     /*slider*/
     $owl.owlCarousel({
