@@ -1,0 +1,1169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+body {
+    background: url("../img/bg_img.png") no-repeat top;
+    height: 516px;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin: 60px 0 0;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #fff;
+}
+
+.logo > span {
+    background: -webkit-linear-gradient(#745083, #34263b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*MENU*/
+
+nav {
+    display: block;
+    margin: 8px auto;
+    width: 244px;
+    font-size: 24px;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+}
+
+.alt_nav {
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: block;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav a:hover {
+    background: rgba(43, 34, 49, 0.3);
+}
+
+.menu {
+    position: relative;
+}
+
+.menu > li {
+    padding-top: 10px;
+}
+
+.menu > li:hover {
+    box-sizing: border-box;
+    width: 244px;
+    background: rgba(68, 55, 75, 0.9);
+    border-radius: 8px 8px 0 0;
+    border-left: 1px solid #111b22;
+    border-right: 1px solid #111b22;
+    -webkit-box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+    -moz-box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+    box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    box-sizing: border-box;
+    height: 40px;
+    border-bottom: 2px solid #edbfff;
+}
+
+.submenu {
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    display: none;
+    width: 244px;
+    padding-bottom: 10px;
+    border-radius: 0 0 8px 8px;
+    border-left: 1px solid #111b22;
+    border-bottom: 1px solid #111b22;
+    border-right: 1px solid #111b22;
+    z-index: 100;
+}
+
+.menu :hover .submenu {
+    display: block;
+    background: rgba(68, 55, 75, 0.9);
+}
+
+.submenu li {
+    border-bottom: 1px solid #36283e;
+    -webkit-box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+    -moz-box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+    box-shadow: 0 1px 0 0 rgba(82, 63, 90, 1);
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    display: block;
+}
+
+.submenu a:hover {
+    box-sizing: border-box;
+    height: 40px;
+    border-bottom: 2px solid #edbfff;
+}
+
+/*SLIDER*/
+
+.slider_container {
+
+    margin: 115px 0 0;
+}
+
+.slider_content_box {
+    position: relative;
+    margin: 0 auto;
+    width: 85%;
+}
+.slider_content_box:before{
+    position: absolute;
+    cursor: pointer;
+    content: url("../img/left_arrow.png");
+    left: -6%;
+    top: 16px;
+}
+.slider_content_box:after{
+    position: absolute;
+    cursor: pointer;
+    content: url("../img/right_arrow.png");
+    left: 96%;
+    top: 16px;
+}
+
+.sc_item {
+    width: 220px;
+    margin: 0 auto;
+    padding: 0 0 0 25px;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+}
+
+.sc_item > h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 100;
+
+}
+
+.sc_item > h3 {
+    font-size: 18px;
+    color: #edbfff;
+    font-weight: 100;
+}
+
+.top_content_item {
+    display: none;
+}
+
+.navigation {
+    height: 17px;
+    width: 88px;
+    margin: 73px 0 68px 38%;
+}
+
+.navigation li {
+    float: left;
+    margin: 0 5px 0 0;
+    list-style: none;
+}
+
+.navigation a {
+    display: block;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navigation a:hover {
+    height: 11px;
+    width: 11px;
+    display: block;
+    margin: 3px;
+    background: url("../img/point.png") no-repeat;
+}
+
+/*COMPANY*/
+
+.company {
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#745083+0,33253a+100 */
+    background: #745083; /* Old browsers */
+    background: -moz-linear-gradient(top, #745083 0%, #33253a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #745083 0%, #33253a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #745083 0%, #33253a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#745083', endColorstr='#33253a', GradientType=0); /* IE6-9 */
+    border-top: 1px solid #37293e;
+}
+
+.comp_container {
+    margin: 68px 0 43px;
+}
+
+.comp_box {
+    float: left;
+    width: 93%;
+    margin: 0 0 20px 7%;
+}
+
+.comp_box > a {
+    float: left;
+    display: block;
+    height: 28px;
+    width: 29px;
+    background: url("../img/sprite.png");
+}
+
+.comp_box .sms_img {
+    background-position: -29px 0;
+}
+
+.comp_box .music_img {
+    background-position: -58px 0;
+}
+
+.setting_img {
+    margin: 4px 0 0 0;
+}
+
+.setting_img:hover {
+    background-position: -1px -29px;
+}
+
+.sms_img:hover {
+    background-position: -30px -29px;
+}
+
+.music_img:hover {
+    background-position: -59px -29px;
+}
+
+.comp_item {
+    margin-left: 52px;
+    width: 78%;
+}
+
+.comp_item h2 {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #fff;
+}
+
+.cc_text {
+    overflow: hidden;
+    height: 69px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Open Sans Light", Arial, sans-serif;
+    color: #fff;
+}
+
+.cc_read_more {
+    float: right;
+    margin: 17px 8px 0 0;
+    font-size: 18px;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cc_read_more:hover {
+    text-shadow: 0 0 3px rgba(255, 255, 255, 1)
+}
+
+.blog {
+    overflow: hidden;
+    background: #f9f9f9;
+}
+
+.blog_container {
+    margin: 70px 0 0;
+}
+
+.blog_box {
+    float: left;
+    width: 93%;
+    margin: 0 auto 25px;
+}
+
+.bg_blog_box {
+    position: relative;
+    margin: 0 0 0 36px;
+    background: #fff;
+    padding: 23px 34px 30px;
+}
+
+.user_img {
+    top: 18px;
+    left: -25px;
+    position: absolute;
+    background: url("../img/user_img.png") no-repeat;
+    height: 49px;
+    width: 49px;
+}
+
+.bg_blog_box h3 {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #454545;
+}
+
+.bg_blog_box h3 span {
+    display: block;
+    margin: -6px 0;
+    color: #edbfff;
+}
+
+.bg_blog_box p {
+    overflow: hidden;
+    height: 170px;
+    margin-top: 9px;
+    margin-left: 4px;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Open Sans Light", Arial, sans-serif;
+    color: #454545;
+}
+
+.navigation--blog {
+    margin: 20px 0 0 132px
+}
+
+.navigation.navigation--blog a {
+    box-sizing: border-box;
+    border: 1px solid #e7e7e7;
+    background: #fff;
+}
+
+.navigation.navigation--blog a:hover {
+    padding: 3px;
+    background: url("../img/dark_point.png") no-repeat;
+}
+
+.blog_item_box {
+    float: left;
+    width: 95%;
+    margin: 19px 0 86px 10px;
+}
+
+.wrapper_blog h2 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #454545;
+}
+
+.blog_img {
+    float: left;
+    background: url("../img/blog_img.png") no-repeat;
+    height: 49px;
+    width: 49px;
+    margin-right: 18px;
+}
+
+.item_blog p {
+    font-size: 16px;
+    font-family: "Open Sans Light", Arial, sans-serif;
+    color: #454545;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blog_inner_box {
+    overflow: hidden;
+    height: 45px;
+}
+
+.blog_inner_box h4 {
+    font-size: 16px;
+    font-family: "Open Sans Light", Arial, sans-serif;
+    color: #454545;
+}
+
+.blog_inner_box p {
+    line-height: 27px;
+}
+
+.item_blog {
+    margin: 15px 0;
+}
+
+.blog_read_more {
+    float: right;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "League Gothic Regular", Arial, sans-serif;
+    color: #454545;
+    letter-spacing: 0.5px;
+}
+
+.logos {
+    box-sizing: border-box;
+    height: 423px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(254, 254, 254, 1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(254, 254, 254, 1);
+    box-shadow: inset 0 0 0 1px rgba(254, 254, 254, 1);
+}
+
+.logos_img {
+    margin: 53px auto;
+    height: 294px;
+    width: 237px;
+    background: url("../img/logos_320.png") no-repeat;
+}
+
+.bottom_content {
+    display: none;
+}
+
+footer {
+    background: url("../img/footer_320.png") no-repeat;
+    background-position: bottom;
+    height: 200px;
+}
+
+.menu--footer {
+    display: none;
+}
+
+.design {
+    padding: 39px 0 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Open Sans Light", Arial, sans-serif;
+    color: #fff;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (min-width: 480px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .bg_slider {
+        position: absolute;
+        z-index: -10;
+        top: 204px;
+        width: 100%;
+        height: 245px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .slider_container {
+        margin: 15px 0 0;
+    }
+
+    .slider_content_box:before{
+        left: -3%;
+        top: 117px;
+    }
+
+    .slider_content_box:after{
+        left: 100%;
+        top: 117px;
+    }
+
+    .slider_content_box {
+        width: 436px;
+    }
+
+    .sc_item {
+        float: left;
+        width: 220px;
+        margin: 100px auto 90px;
+        padding: 0 0 0 16px;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .sc_iphone {
+        float: left;
+        height: 259px;
+        width: 192px;
+        background: url("../img/iphone_480.png") no-repeat;
+        background-size: cover;
+    }
+
+    .navigation {
+        height: 17px;
+        width: 88px;
+        margin: 20px 0 60px 42%;
+    }
+
+    .comp_container {
+        margin: 74px 0 48px;
+    }
+
+    .comp_box {
+        width: 95%;
+        margin: 0 0 20px 4.5%;
+    }
+
+    .comp_item {
+        margin: 0 0 0 12%;
+        width: 86%;
+    }
+
+    .cc_text {
+        height: 70px;
+    }
+
+    .blog_box {
+        width: 97%;
+    }
+
+    .bg_blog_box {
+        padding: 23px 10px 33px 34px;
+        margin: 0 0 0 35px;
+    }
+
+    .bg_blog_box h3 {
+        font-size: 30px;
+        margin: 0 0 0 3px;
+    }
+
+    .bg_blog_box h3 span {
+        display: inline;
+    }
+
+    .bg_blog_box p {
+        margin: 11px 0 0 2px;
+    }
+
+    .navigation--blog {
+        margin-top: 21px;
+        margin-left: 44%;
+    }
+
+    .blog_item_box {
+        width: 76%;
+        margin: 19px 8% 84px 16%
+    }
+
+    .item_blog {
+        margin: 12px 15px 19px 0;
+    }
+
+    .logos {
+        height: 234px;
+    }
+
+    .logos_img {
+        margin: 37px auto;
+        height: 154px;
+        width: 345px;
+        background: url("../img/logos_480.png") no-repeat;
+    }
+
+    .bottom_content {
+        display: block;
+        background: #ececec;
+    }
+
+    .bc-wrapper {
+        padding: 71px 0 30px 0;
+    }
+
+    .bc_box {
+        overflow: hidden;
+        float: left;
+        width: 96%;
+        height: 135px;
+        margin: 0 2% 54px;
+    }
+
+    .bc_logo {
+        font-size: 48px;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+        color: #454545;
+    }
+
+    .bc_logo span {
+        color: #b9b9b9;
+    }
+
+    .bc_box h2 {
+        font-size: 24px;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+        font-weight: 100;
+        color: #454545;
+    }
+
+    .copyright {
+        font-size: 16px;
+        font-family: Georgia, serif;
+        font-style: italic;
+        color: #c5c5c5;
+    }
+
+    .bc_item {
+        margin: 9px 0 0;
+        font-size: 16px;
+        font-family: "Open Sans Light", Arial, sans-serif;
+        color: #787878;
+        line-height: 24px;
+    }
+
+    .alt_nav.alt_nav--footer {
+        display: block;
+        height: 30px;
+        width: 440px;
+        font-size: 20px;
+        margin: 0 auto 26px;
+        padding: 44px 0 0;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+        font-weight: 100;
+    }
+
+    .alt_menu--footer li {
+        box-sizing: border-box;
+        float: left;
+        margin: 0 25px 0 0;
+        list-style: none;
+    }
+
+    .alt_nav li:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .alt_menu--footer li:last-child {
+        margin: 0;
+    }
+
+    .alt_menu--footer a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .design {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .logo {
+        float: left;
+        margin: 70px 0 0 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .alt_nav {
+        margin: 20px 0 0 20px;
+        display: block;
+        float: left;
+        font-size: 24px;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .alt_nav li {
+        box-sizing: border-box;
+        height: 30px;
+        float: left;
+        margin: 0 52px 0 0;
+        list-style: none;
+    }
+
+    .alt_nav li:hover {
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .alt_nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .bg_slider {
+        position: absolute;
+        z-index: -10;
+        top: 253px;
+        width: 100%;
+        height: 400px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .slider_container {
+        margin: 50px 0 0;
+    }
+
+    .slider_content_box {
+        width: 724px;
+    }
+
+    .slider_content_box:before{
+        left:-2%;
+        top: 207px;
+    }
+    .slider_content_box:after {
+        left:101%;
+        top: 207px;
+    }
+
+    .sc_item {
+        float: left;
+        width: 280px;
+        margin: 117px auto 90px;
+        padding: 0 0 0 3%;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .sc_item h2 {
+        font-size: 48px;
+    }
+
+    .sc_item h3 {
+        font-size: 24px;
+    }
+
+    .top_content_item {
+        display: block;
+        overflow: hidden;
+        margin: 6px 0 0;
+        height: 104px;
+        line-height: 26px;
+        font-size: 16px;
+        font-family: "Open Sans Light", Arial, sans-serif;
+        color: #fff;
+    }
+
+    .sc_iphone {
+        float: right;
+        height: 434px;
+        width: 274px;
+        background: url("../img/iphone_768.png");
+        margin: 0 15px 0 0;
+    }
+
+    .navigation {
+        margin: 27px auto 100px 72%;
+    }
+
+    .navigation--blog {
+        margin: 18px auto;
+    }
+
+    .comp_box {
+        float: left;
+        width: 29%;
+        margin: 0 2px 20px 4%;
+    }
+
+    .setting_img {
+        margin: 4px 0 0 2px;
+    }
+
+    .comp_item {
+        width: 75%;
+        margin: 0 0 0 25%;
+    }
+
+    .cc_text {
+        height: 140px;
+    }
+
+    .cc_read_more {
+        margin: 10px 17px 0 0;
+    }
+
+    .blog_container {
+        margin: 99px 0 0 0;
+    }
+
+    .bg_blog_box {
+        margin: 0 0 0 38px;
+        padding: 23px 10px 43px 34px;
+    }
+
+    .bg_blog_box h3 {
+        margin: 2px 0 0 4px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .bg_blog_box h3 span {
+        display: block;
+    }
+
+    .bg_blog_box p {
+        margin: 11px 0 0 4px;
+        height: 145px;
+    }
+
+    .navigation--blog {
+        margin: 21px 42%;
+    }
+
+    .blog_box {
+        float: left;
+        width: 48%;
+        margin: 0 1% 25px;
+    }
+
+    .wrapper_blog {
+        margin: 25px 0 0;
+    }
+
+    .blog_item_box {
+        float: left;
+        width: 44%;
+        margin: 0 0 0 40px;
+    }
+
+    .item_blog {
+        margin: 12px 5px 19px 0;
+    }
+
+    .blog_read_more {
+        margin: 0 2px 0 0;
+    }
+
+    .logos {
+        margin: 28px 0 0;
+        height: 121px;
+    }
+
+    .logos_img {
+        margin: 26px 0 30px 24px;
+        height: 65px;
+        width: 725px;
+        background: url("../img/logos_768.png") no-repeat;
+    }
+
+    .bc-wrapper {
+        padding: 98px 0 38px 20px;
+    }
+
+    .bc-wrapper div:first-child {
+        margin-left: 0;
+    }
+
+    .bottom_content {
+        display: block;
+        background: #ececec;
+    }
+
+    .bc_box {
+        overflow: hidden;
+        float: left;
+        width: 28%;
+        height: 210px;
+        margin: 0 0 50px 8%;
+    }
+
+    .bc_box .bc_box--last {
+        margin: 0 1px 0 0;
+    }
+
+    .alt_nav.alt_nav--footer {
+        width: 530px;
+        margin: 0 0 30px 21px;
+        padding: 43px 0 0;
+    }
+
+    .alt_menu--footer li {
+        margin: 0 43px 0 0;
+    }
+
+    .design {
+        float: right;
+        margin: 99px 3px 0 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .wrapper {
+        width: 960px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .logo_box {
+        float: left;
+        width: 160px;
+    }
+
+    .logo {
+        margin: 70px 0;
+    }
+
+    .alt_nav {
+        float: right;
+        margin: 81px 0;
+    }
+
+    .alt_nav li {
+        margin: 0 0 0 52px;
+    }
+
+    .bg_slider {
+        position: absolute;
+        z-index: -10;
+        top: 288px;
+        width: 100%;
+        height: 400px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .slider_container {
+        margin: 72px 0 0;
+    }
+
+    .slider_content_box {
+        width: 960px;
+    }
+    .slider_content_box:before{
+        left: -5%;
+    }
+    .slider_content_box:after {
+        left: 105%;
+    }
+
+    .sc_item {
+        float: left;
+        width: 500px;
+        margin: 94px auto 90px;
+        padding: 0 0 0 1px;
+        font-family: "League Gothic Regular", Arial, sans-serif;
+    }
+
+    .sc_item h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .sc_item h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .sc_item p {
+        line-height: 24px;
+    }
+
+    .top_content_item {
+        height: 140px;
+        font-size: 18px;
+    }
+
+    .sc_iphone {
+
+        height: 434px;
+        width: 274px;
+        margin: 0 69px 0 0;
+    }
+
+    .navigation {
+        margin: 76px 0 58px 75%;
+    }
+
+    .navigation--blog {
+        margin: 18px auto;
+    }
+
+    .comp_container {
+        margin: 72px 0 67px;
+    }
+
+    .comp_container div:first-child {
+        margin-left: 5px;
+    }
+
+    .comp_box {
+        float: left;
+        width: 285px;
+        margin: 0 0 0 50px;
+    }
+
+    .setting_img,
+    .sms_img,
+    .music_img {
+        margin: 10px 0 0 6px;
+    }
+
+    .comp_item {
+        width: 230px;
+        margin: 0 0 0 58px;
+    }
+
+    .comp_item h2 {
+        margin: 0 0 0 2px;
+        font-size: 30px;
+    }
+
+    .cc_text {
+        margin: 5px 0 0;
+        height: 120px;
+    }
+
+    .cc_read_more {
+        margin: 18px 13px 0 0;
+    }
+
+    .blog_container {
+        margin: 100px 0 0;
+    }
+
+    .bg_blog_box {
+        margin: 0 0 0 17px;
+        height: 207px;
+        width: 383px;
+    }
+
+    .bg_blog_box h3 {
+        font-size: 30px;
+        margin: 5px 0 0 4px;
+    }
+
+    .bg_blog_box h3 span {
+        display: inline;
+    }
+
+    .bg_blog_box p {
+        margin-top: 9px;
+        height: 168px;
+        width: 355px;
+        line-height: 24px;
+    }
+
+    .navigation--blog {
+        margin: 22px 0 0 188px;
+    }
+
+    .blog_item_box {
+        margin-left: 32px;
+        width: 435px;
+    }
+
+    .item_blog {
+        margin-left: 1px;
+    }
+
+    .blog_img {
+        margin-right: 16px;
+    }
+
+    .blog_inner_box {
+        width: 330px;
+    }
+
+    .logos {
+        margin: 49px 0 0;
+        height: 121px;
+    }
+
+    .logos_img {
+        margin: 26px auto 30px;
+        height: 65px;
+        width: 775px;
+        background: url("../img/logos_960.png") no-repeat;
+    }
+
+    .logos_img {
+        margin: 26px 0 30px 95px;
+    }
+
+    .bc-wrapper {
+        padding: 89px 0 44px;
+    }
+
+    .bc_logo {
+        margin: 6px 0 0 1px;
+        line-height: 48px;
+    }
+
+    .copyright {
+        margin: 12px 0 9px;
+    }
+
+    .bc_box {
+        width: 280px;
+        height: 215px;
+        margin: 0 0 50px 60px;
+    }
+
+    .bc_box h2 {
+        font-size: 30px;
+    }
+
+    .bc_item {
+        margin-top: 5px;
+        height: 180px;
+        width: 285px;
+    }
+
+    .bc_name_item {
+        margin: 4px 0 0;
+    }
+
+    footer {
+        height: 113px;
+    }
+
+    .alt_nav.alt_nav--footer {
+        float: left;
+        width: 530px;
+        margin: 0 0 30px 0;
+        padding: 44px 0 0 2px;
+    }
+
+    .alt_menu--footer li {
+        margin: 0 43px 0 0;
+    }
+
+    .design {;
+        float: right;
+        margin: 51px 0 0;
+    }
+}
