@@ -199,14 +199,16 @@ nav a:hover {
     float: left;
     margin: 0 5px 0 0;
     list-style: none;
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .navigation a {
     display: block;
     height: 17px;
     width: 17px;
-    border-radius: 100%;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 .navigation a:hover {
