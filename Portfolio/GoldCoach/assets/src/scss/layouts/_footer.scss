@@ -1,0 +1,77 @@
+.footer {
+  color: $fontDark;
+
+  &__article {
+    display: block;
+    text-align: left;
+    margin: 20px 0;
+    font-size: 24px;
+
+    @media screen and (min-width: 960px) {
+      font-size: 36px;
+    }
+  }
+
+  &__text {
+    display: block;
+    text-align: left;
+    padiing: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+
+    @media screen and (min-width: 960px) {
+      font-size: 30px;
+    }
+  }
+
+  &__btn {
+    display: block;
+    padding: 25px;
+    font-size: 27px;
+    margin: 50px 0;
+  }
+
+  &__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin-bottom: 91px;
+  }
+
+  &__links {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    @include border-radius(5px);
+    border: 1px solid;
+    transition: all .15s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &_vk {
+      background-image: url(../../../img/vk.png);
+      border-color: #4d6483;
+    }
+
+    &_fb {
+      background-image: url(../../../img/fb.png);
+      border-color: #37529d;
+    }
+
+    &_tw {
+      background-image: url(../../../img/twitter.png);
+      border-color: #3fa6e6;
+    }
+  }
+}
+

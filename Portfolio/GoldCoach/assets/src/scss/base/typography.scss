@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url(../fonts/PT_Sans/PT_Sans-Web-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans Bold';
+    src: url(../fonts/PT_Sans/PT_Sans-Web-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans Italic';
+    src: url(../fonts/PT_Sans/PT_Sans-Web-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'PTSans BoldItalic';
+    src: url(../fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf);
+}
+
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url(../fonts/Circe_bold/Circle-Bold.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-family: "PTSans Bold";
+}

@@ -1,0 +1,21 @@
+.article {
+  background: url(../../../img/bgTriangle1.png) no-repeat 50% 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-size: 24px;
+  color: $fontDark;
+
+  &__title {
+    padding-top: 3px;
+    font-weight: bold;
+  }
+
+  &__text {
+    text-align: left;
+    margin: 18px 0;
+
+    &_bold {
+      font-weight: bold;
+    }
+  }
+}

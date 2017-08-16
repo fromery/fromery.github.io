@@ -1,0 +1,25 @@
+{
+  "name": "GoldCoach",
+  "version": "0.0.1",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Sokol",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "github:tcoopman/image-webpack-loader",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0-rc.0"
+  }
+}

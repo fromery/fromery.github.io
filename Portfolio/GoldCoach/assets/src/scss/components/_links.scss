@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 25px 48px;
+  background-color: $main;
+  border-bottom: 6px solid #ff332a;
+  text-transform: uppercase;
+  font-family: "PTSans Bold";
+  font-size: 30px;
+  color: $light;
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    background-color: #E3611F;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255,98,31,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255,98,31,1);
+    box-shadow: 0px 0px 5px 0px rgba(255,98,31,1);
+  }
+}

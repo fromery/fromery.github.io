@@ -1,0 +1,202 @@
+.columns {
+  padding: 22px 0;
+
+  &__wrapper, &__timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  &__wrapper {
+    @media screen and (min-width: 960px) {
+      flex-direction: row;
+    }
+  }
+
+  .timer {
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    color: $fontDark;
+
+    &__title {
+      margin-bottom: 22px;
+      font-family: "PTSans Bold";
+      font-size: 24px;
+    }
+
+    &__box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+    }
+
+    &__number {
+      width: 76px;
+      height: 76px;
+      margin: 4px;
+      background-color: #2b2e35;
+      @include border-radius(10px);
+      font-family: "Circe Bold";
+      font-size: 54px;
+      color: $light;
+    }
+
+    &__text {
+      margin-top: 16px;
+      font-family: "Circe Bold";
+      font-size: 16px;
+    }
+  }
+
+  &_right {
+    background-color: $bgGrey;
+    padding: 40px 40px 22px;
+
+    @media screen and (min-width: 960px){
+      order: 2;
+      width: 50%;
+    }
+
+    &__title {
+      padding-top: 23px;
+      margin-bottom: 63px;
+      text-align: left;
+      font-size: 27px;
+      color: $fontDark;
+    }
+  }
+
+  .listRight__item {
+    text-align: left;
+    margin-left: 40px;
+    padding: 18px 0;
+    font-size: 24px;
+    color: $fontDark;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 24px;
+      height: 18px;
+      display: block;
+      position: absolute;
+      top: 26px;
+      left: -40px;
+      background: url("../../../img/check.png") no-repeat;
+      -webkit-background-size: 24px 18px;
+      background-size: 24px 18px;
+    }
+  }
+
+  &_left {
+    background-color: $main;
+    padding: 42px 37px;
+    color: $light;
+
+    @media screen and (min-width: 960px){
+      order: 1;
+      width: 50%;
+    }
+  }
+
+  &__datebox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-bottom: 23px;
+  }
+
+  &__avatar {
+    margin-top: 23px;
+  }
+
+  &__speaker {
+    display: block;
+    padding: 10px;
+    font-family: "Georgia";
+    font-style: italic;
+    font-size: 25px;
+  }
+
+  &__name {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .listLeft {
+    margin-left: 60px;
+
+    &__item {
+      padding: 15px 0;
+      text-align: left;
+      list-style: disc;
+      font-size: 23px;
+    }
+  }
+}
+
+.dateLeft {
+  width: 143px;
+  height: 137px;
+  min-width: 142px;
+  background-color: $light;
+
+  &__month {
+    display: block;
+    background-color: $fontDark;
+    font-size: 25px;
+    font-family: "PTSans Bold";
+  }
+
+  &__number {
+    display: block;
+    font-size: 83px;
+    font-family: "PTSans Bold";
+    color: #c2c2c2;
+  }
+}
+
+.dateRight {
+  width: 100%;
+  margin-left: 37px;
+  line-height: 65px;
+  color: $light;
+  text-transform: uppercase;
+
+  &__day {
+    line-height: 29px;
+    font-size: 34px;
+    font-family: "Circe Bold";
+    text-align: left;
+  }
+
+  &__month {
+    border-bottom: 1px dashed $light;
+    font-size: 40px;
+    font-family: "Circe Bold";
+    text-align: left;
+  }
+
+  &__time {
+    font-size: 27px;
+    text-align: left;
+  }
+}
