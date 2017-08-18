@@ -371,7 +371,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 1px solid #e7e7e7;
     background: #fff;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .navigation.navigation--blog a:hover {
