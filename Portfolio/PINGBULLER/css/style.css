@@ -371,6 +371,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 1px solid #e7e7e7;
     background: #fff;
+    border-radius: 100%;
 }
 
 .navigation.navigation--blog a:hover {
@@ -789,7 +790,7 @@ footer {
     }
 
     .navigation {
-        margin: 27px auto 100px 72%;
+        margin: 27px auto 100px;
     }
 
     .navigation--blog {
@@ -1007,7 +1008,7 @@ footer {
     }
 
     .navigation {
-        margin: 76px 0 58px 75%;
+        margin: 76px auto 58px;
     }
 
     .navigation--blog {
