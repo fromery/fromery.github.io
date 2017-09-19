@@ -1,0 +1,27 @@
+.services {
+
+  &__icon {
+    vertical-align: bottom;
+    width: 53px;
+    height: 53px;
+    margin: 30px;
+  }
+
+  &__col {
+    height: 240px;
+    padding: 10px;
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 22px;
+    color: $color-title;
+  }
+
+  &__text {
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 14px;
+    color: $color-text;
+  }
+}

@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 40px;
+  background-color: white;
+  @include border-radius(3px);
+  text-transform: uppercase;
+  color: #151515;
+  font-family: "OpenSans Bold", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all .15s ease-in-out;
+
+  &:hover {
+    background-color: #151515;
+    color: white;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 13px 20px;
+  }
+}
+
+
