@@ -28,7 +28,7 @@
   left: 0;
   width: auto;
   height: auto;
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 .carousel-indicators li {
@@ -88,4 +88,12 @@
   box-shadow: 0 3px $color-btn-shadow;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: url(../img/arrow.svg);
+  width: 40px;
+  height: 73px;
+}
 
+.carousel-control-prev-icon {
+  transform: rotate(180deg);
+}

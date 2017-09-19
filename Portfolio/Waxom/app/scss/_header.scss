@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.container-fluid {
+  max-width: 1230px;
+}
+
 .navbar {
   width: 100%;
 }
@@ -20,6 +24,7 @@
     display: none;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
@@ -121,6 +126,9 @@
   }
 }
 
-.collapse.show {
-  display: block;
+.collapse {
+  display: none;
+  &.show {
+    display: block;
+  }
 }

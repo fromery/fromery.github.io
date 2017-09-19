@@ -1,0 +1,58 @@
+.waxom-is {
+  background-color: #fbfaf8;
+  padding-top: 20px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 80px;
+  }
+
+  .col {
+    flex-basis: auto;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: 0;
+    }
+  }
+
+  &__title {
+    margin-top: 20px;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 30px;
+  }
+
+  &__text {
+    display: inline-block;
+    max-width: 770px;
+    margin-top: 12px;
+  }
+
+  &__browsers {
+    position: relative;
+
+    @media screen and(min-width: 768px) {
+      margin-top: 62px;
+    }
+    @media screen and(min-width: 960px) {
+      margin-top: 74px;
+    }
+    @media screen and(min-width: 1200px) {
+      margin-top: 86px;
+    }
+  }
+
+  @media screen and(min-width: 768px) {
+    &__box-img {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      .waxom-is__img {
+        width: 50%;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

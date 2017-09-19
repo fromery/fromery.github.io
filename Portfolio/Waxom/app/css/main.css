@@ -12,6 +12,14 @@ li {
 a {
   text-decoration: none; }
 
+p {
+  font-family: "Montserrat Light", sans-serif;
+  font-size: 16px;
+  color: #8c8c8c; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #555555; }
+
 .clearfix:after {
   content: "";
   display: table;
@@ -118,7 +126,7 @@ a {
   left: 0;
   width: auto;
   height: auto;
-  opacity: 0.7; }
+  opacity: 0.3; }
 
 .carousel-indicators li {
   width: 11px;
@@ -174,11 +182,24 @@ a {
   -webkit-box-shadow: 0 3px #736357;
           box-shadow: 0 3px #736357; }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: url(../img/arrow.svg);
+  width: 40px;
+  height: 73px; }
+
+.carousel-control-prev-icon {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
 .header {
   position: absolute;
   top: 27px;
   left: 0;
   width: 100%; }
+
+.container-fluid {
+  max-width: 1230px; }
 
 .navbar {
   width: 100%; }
@@ -274,8 +295,14 @@ a {
     -webkit-background-size: 24px 24px;
             background-size: 24px 24px; } }
 
-.collapse.show {
-  display: block; }
+.collapse {
+  display: none; }
+  .collapse.show {
+    display: block; }
+
+@media screen and (min-width: 1200px) {
+  .services {
+    margin-bottom: 90px; } }
 
 .services__icon {
   vertical-align: bottom;
@@ -286,14 +313,64 @@ a {
 .services__col {
   height: 240px;
   padding: 10px; }
+  .services__col:hover .services__separator {
+    border-top-color: #c7b299; }
+  .services__col:hover .services__title {
+    color: #c7b299; }
 
 .services__title {
   margin-bottom: 18px;
   font-family: "Raleway SemiBold", sans-serif;
-  font-size: 22px;
-  color: #555555; }
+  font-size: 22px; }
 
 .services__text {
-  font-family: "Montserrat Light", sans-serif;
-  font-size: 14px;
-  color: #555555; }
+  font-size: 14px; }
+
+.services__separator {
+  width: 70px;
+  border-top: 3px solid #f1eee9;
+  margin: 27px auto 0; }
+
+.waxom-is {
+  background-color: #fbfaf8;
+  padding-top: 20px; }
+  @media screen and (min-width: 1200px) {
+    .waxom-is {
+      padding-top: 80px; } }
+  .waxom-is .col {
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
+    @media screen and (min-width: 768px) {
+      .waxom-is .col {
+        -webkit-flex-basis: 0;
+            -ms-flex-preferred-size: 0;
+                flex-basis: 0; } }
+  .waxom-is__title {
+    margin-top: 20px;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 30px; }
+  .waxom-is__text {
+    display: inline-block;
+    max-width: 770px;
+    margin-top: 12px; }
+  .waxom-is__browsers {
+    position: relative; }
+    @media screen and (min-width: 768px) {
+      .waxom-is__browsers {
+        margin-top: 62px; } }
+    @media screen and (min-width: 960px) {
+      .waxom-is__browsers {
+        margin-top: 74px; } }
+    @media screen and (min-width: 1200px) {
+      .waxom-is__browsers {
+        margin-top: 86px; } }
+  @media screen and (min-width: 768px) {
+    .waxom-is__box-img {
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      .waxom-is__box-img .waxom-is__img {
+        width: 50%; } }
+  .waxom-is__img {
+    width: 100%; }

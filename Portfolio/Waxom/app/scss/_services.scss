@@ -1,5 +1,9 @@
 .services {
 
+  @media screen and(min-width: 1200px){
+    margin-bottom: 90px;
+  }
+
   &__icon {
     vertical-align: bottom;
     width: 53px;
@@ -10,18 +14,28 @@
   &__col {
     height: 240px;
     padding: 10px;
+
+    &:hover .services__separator {
+      border-top-color: $color-gold;
+    }
+    &:hover .services__title {
+      color: $color-gold;
+    }
   }
 
   &__title {
     margin-bottom: 18px;
     font-family: "Raleway SemiBold", sans-serif;
     font-size: 22px;
-    color: $color-title;
   }
 
   &__text {
-    font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
-    color: $color-text;
+  }
+
+  &__separator {
+    width: 70px;
+    border-top: 3px solid #f1eee9;
+    margin: 27px auto 0;
   }
 }
