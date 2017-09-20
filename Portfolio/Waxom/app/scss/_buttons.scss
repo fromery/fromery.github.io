@@ -1,7 +1,13 @@
 .btn-primary {
   display: inline-block;
+  width: 170px;
+  height: 50px;
+  box-sizing: border-box;
+  line-height: 37px;
   color: white;
   font-family: "Raleway ExtraBold", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
   background-color: $color-btn;
   border-color: transparent;
   box-shadow: 0 3px $color-btn-shadow;

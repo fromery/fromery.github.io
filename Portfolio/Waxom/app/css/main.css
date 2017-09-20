@@ -71,8 +71,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary {
   display: inline-block;
+  width: 170px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 37px;
   color: white;
   font-family: "Raleway ExtraBold", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
   background-color: #998675;
   border-color: transparent;
   -webkit-box-shadow: 0 3px #736357;
@@ -111,10 +118,28 @@ h1, h2, h3, h4, h5, h6 {
 .carousel-img {
   position: absolute;
   top: 0;
-  left: 0;
+  right: -250%;
   width: auto;
   height: auto;
   opacity: 0.3; }
+  @media screen and (min-width: 350px) {
+    .carousel-img {
+      right: -140%; } }
+  @media screen and (min-width: 768px) {
+    .carousel-img {
+      right: -75%; } }
+  @media screen and (min-width: 960px) {
+    .carousel-img {
+      right: -50%; } }
+  @media screen and (min-width: 1024px) {
+    .carousel-img {
+      right: -45%; } }
+  @media screen and (min-width: 1200px) {
+    .carousel-img {
+      right: -25%; } }
+  @media screen and (min-width: 1400px) {
+    .carousel-img {
+      right: 0; } }
 
 .carousel-indicators li {
   width: 11px;
@@ -348,19 +373,79 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; }
 
 .wordpress {
+  padding: 46px 0;
   background: #211b19;
   background: -webkit-gradient(left top, right top, color-stop(0%, #211b19), color-stop(100%, #4e3427));
   background: -webkit-linear-gradient(left, #211b19 0%, #4e3427 100%);
   background: -o-linear-gradient(left, #211b19 0%, #4e3427 100%);
   background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
   background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b19', endColorstr='#4e3427', GradientType=1 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#211b19', endColorstr='#4e3427', GradientType=1); }
+  @media screen and (min-width: 768px) {
+    .wordpress {
+      padding: 46px 0 30px; } }
+  .wordpress .row {
+    margin: 0; }
   .wordpress__title {
     font-size: 28px; }
   .wordpress__waxom {
     color: #c7b299; }
+  .wordpress__text {
+    margin-bottom: 22px; }
+    @media screen and (min-width: 768px) {
+      .wordpress__text {
+        text-align: left;
+        margin-bottom: 0; } }
 
-.footer {
-  background-color: aqua;
-  width: 1020px;
-  height: 200px; }
+.last-projects {
+  position: relative; }
+  .last-projects__title {
+    margin-top: 80px;
+    margin-bottom: 20px; }
+  .last-projects__project {
+    max-width: 370px;
+    width: 100%;
+    padding: 15px; }
+    .last-projects__project:hover .last-projects__about {
+      background-color: #362f2d; }
+    .last-projects__project:hover .last-projects__about:before {
+      border-bottom-color: #362f2d; }
+    .last-projects__project:hover .last-projects__name {
+      color: #ffffff; }
+    .last-projects__project:hover .last-projects__type {
+      color: #c7b299; }
+  .last-projects__link {
+    display: block;
+    height: 237px;
+    width: 100%;
+    overflow: hidden; }
+  .last-projects__about {
+    position: relative;
+    padding: 30px;
+    background-color: #fbfaf8;
+    text-align: left; }
+    .last-projects__about:before {
+      content: '';
+      position: absolute;
+      top: -25px;
+      left: 20px;
+      border: 15px solid transparent;
+      border-bottom: 10px solid #fbfaf8; }
+  .last-projects__name {
+    font-family: "Raleway Medium", sans-serif;
+    font-size: 20px;
+    color: #c7b299; }
+  .last-projects__type {
+    margin: 0; }
+
+.video {
+  width: 100vw; }
+
+.counters {
+  background: #211b19;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #211b19), color-stop(100%, #4e3427));
+  background: -webkit-linear-gradient(left, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(left, #211b19 0%, #4e3427 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+  background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#211b19', endColorstr='#4e3427', GradientType=1); }

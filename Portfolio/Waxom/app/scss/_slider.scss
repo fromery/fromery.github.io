@@ -25,10 +25,29 @@
 .carousel-img {
   position: absolute;
   top: 0;
-  left: 0;
+  right: -250%;
   width: auto;
   height: auto;
   opacity: 0.3;
+
+  @media  screen and (min-width: 350px){
+    right: -140%;
+  }
+  @media  screen and (min-width: 768px){
+    right: -75%;
+  }
+  @media  screen and (min-width: 960px){
+    right: -50%;
+  }
+  @media  screen and (min-width: 1024px){
+    right: -45%;
+  }
+  @media  screen and (min-width: 1200px){
+    right: -25%;
+  }
+  @media  screen and (min-width: 1400px){
+    right: 0;
+  }
 }
 
 .carousel-indicators li {

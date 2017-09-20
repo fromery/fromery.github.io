@@ -1,5 +1,4 @@
-.wordpress {
-  padding: 46px 0;
+.counters {
   background: rgba(33, 27, 25, 1);
   background: -moz-linear-gradient(left, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33, 27, 25, 1)), color-stop(100%, rgba(78, 52, 39, 1)));
@@ -9,28 +8,4 @@
   background: linear-gradient(to right, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#211b19', endColorstr='#4e3427', GradientType=1);
 
-  @media screen and(min-width: 768px) {
-    padding: 46px 0 30px;
-  }
-
-  .row {
-    margin: 0;
-  }
-
-  &__title {
-    font-size: 28px;
-  }
-
-  &__waxom {
-    color: $color-gold;
-  }
-
-  &__text {
-    margin-bottom: 22px;
-
-    @media screen and(min-width: 768px) {
-      text-align: left;
-      margin-bottom: 0;
-    }
-  }
 }

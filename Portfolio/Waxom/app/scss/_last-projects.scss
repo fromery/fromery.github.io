@@ -1,0 +1,67 @@
+.last-projects {
+  position: relative;
+
+  &__title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  &__project {
+    max-width: 370px;
+    width: 100%;
+    padding: 15px;
+
+    &:hover .last-projects__about {
+      background-color: $color-project-hover;
+    }
+
+    &:hover .last-projects__about:before {
+      border-bottom-color: $color-project-hover;
+    }
+
+    &:hover .last-projects__name {
+      color: #ffffff;
+    }
+
+    &:hover .last-projects__type {
+      color: $color-gold;
+    }
+  }
+
+  &__img {
+
+  }
+
+  &__link {
+    display: block;
+    height: 237px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__about {
+    position: relative;
+    padding: 30px;
+    background-color: $color-bg-grey;
+    text-align: left;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -25px;
+      left: 20px;
+      border: 15px solid transparent;
+      border-bottom: 10px solid $color-bg-grey;
+    }
+  }
+
+  &__name {
+    font-family: "Raleway Medium", sans-serif;
+    font-size: 20px;
+    color: $color-gold;
+  }
+
+  &__type {
+    margin: 0;
+  }
+}
