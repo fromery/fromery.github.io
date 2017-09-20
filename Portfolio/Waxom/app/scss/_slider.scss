@@ -53,9 +53,8 @@
   transform: translateY(-50%);
 }
 
-.carousel-text {
-  max-width: 570px;
-  margin: 0 auto 50px;
+.carousel-line, .carousel-headline, .carousel-text {
+  color: #ffffff;
 }
 
 .carousel-line {
@@ -64,29 +63,15 @@
 }
 
 .carousel-headline {
-
   font-weight: 800;
   font-size: 52px;
 }
 
-.btn-primary {
-  display: inline-block;
-  color: white;
-  font-family: "Raleway ExtraBold", sans-serif;
-  background-color: $color-btn;
-  border-color: transparent;
-  box-shadow: 0 3px $color-btn-shadow;
+.carousel-text {
+  max-width: 570px;
+  margin: 0 auto 50px;
 }
 
-.btn-primary.focus, .btn-primary:focus, .btn-primary:active, .btn-primary:hover, .btn-primary:visited {
-  box-shadow: none;
-  border-color: transparent;
-}
-
-.btn-primary:hover {
-  background-color: #b09989;
-  box-shadow: 0 3px $color-btn-shadow;
-}
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-image: url(../img/arrow.svg);

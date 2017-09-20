@@ -25,37 +25,6 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   clear: both; }
 
-/*
-@mixin box-shadow($shadow...) {
-    -webkit-box-shadow: $shadow;
-    -moz-box-shadow: $shadow;
-    box-shadow: $shadow;
-}
-*/
-a {
-  text-decoration: none; }
-
-.btn {
-  display: inline-block;
-  padding: 13px 40px;
-  background-color: white;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  color: #151515;
-  font-family: "OpenSans Bold", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  -webkit-transition: all .15s ease-in-out;
-  -o-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out; }
-  .btn:hover {
-    background-color: #151515;
-    color: white; }
-  @media screen and (max-width: 480px) {
-    .btn {
-      padding: 13px 20px; } }
-
 @font-face {
   font-family: 'Wilmina';
   src: url(../../fonts/wilmina/wilmina.ttf) format("truetype"); }
@@ -99,6 +68,25 @@ a {
 .main-container {
   max-width: 1230px;
   margin: 0 auto; }
+
+.btn-primary {
+  display: inline-block;
+  color: white;
+  font-family: "Raleway ExtraBold", sans-serif;
+  background-color: #998675;
+  border-color: transparent;
+  -webkit-box-shadow: 0 3px #736357;
+          box-shadow: 0 3px #736357; }
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:active, .btn-primary:hover, .btn-primary:visited {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: transparent; }
+
+.btn-primary:hover {
+  background-color: #b09989;
+  -webkit-box-shadow: 0 3px #736357;
+          box-shadow: 0 3px #736357; }
 
 .slider {
   position: relative;
@@ -151,9 +139,8 @@ a {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-.carousel-text {
-  max-width: 570px;
-  margin: 0 auto 50px; }
+.carousel-line, .carousel-headline, .carousel-text {
+  color: #ffffff; }
 
 .carousel-line {
   font-weight: 500;
@@ -163,24 +150,9 @@ a {
   font-weight: 800;
   font-size: 52px; }
 
-.btn-primary {
-  display: inline-block;
-  color: white;
-  font-family: "Raleway ExtraBold", sans-serif;
-  background-color: #998675;
-  border-color: transparent;
-  -webkit-box-shadow: 0 3px #736357;
-          box-shadow: 0 3px #736357; }
-
-.btn-primary.focus, .btn-primary:focus, .btn-primary:active, .btn-primary:hover, .btn-primary:visited {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: transparent; }
-
-.btn-primary:hover {
-  background-color: #b09989;
-  -webkit-box-shadow: 0 3px #736357;
-          box-shadow: 0 3px #736357; }
+.carousel-text {
+  max-width: 570px;
+  margin: 0 auto 50px; }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-image: url(../img/arrow.svg);
@@ -374,3 +346,16 @@ a {
         width: 50%; } }
   .waxom-is__img {
     width: 100%; }
+
+.wordpress {
+  background: #211b19;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #211b19), color-stop(100%, #4e3427));
+  background: -webkit-linear-gradient(left, #211b19 0%, #4e3427 100%);
+  background: -o-linear-gradient(left, #211b19 0%, #4e3427 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+  background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b19', endColorstr='#4e3427', GradientType=1 ); }
+  .wordpress__title {
+    font-size: 28px; }
+  .wordpress__waxom {
+    color: #c7b299; }

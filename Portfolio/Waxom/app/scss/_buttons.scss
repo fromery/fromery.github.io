@@ -1,0 +1,18 @@
+.btn-primary {
+  display: inline-block;
+  color: white;
+  font-family: "Raleway ExtraBold", sans-serif;
+  background-color: $color-btn;
+  border-color: transparent;
+  box-shadow: 0 3px $color-btn-shadow;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:active, .btn-primary:hover, .btn-primary:visited {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #b09989;
+  box-shadow: 0 3px $color-btn-shadow;
+}
