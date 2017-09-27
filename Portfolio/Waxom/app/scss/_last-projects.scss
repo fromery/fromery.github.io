@@ -6,6 +6,11 @@
     margin-bottom: 20px;
   }
 
+  &__text {
+    display: inline-block;
+    max-width: 760px;
+  }
+
   &__project {
     max-width: 370px;
     width: 100%;

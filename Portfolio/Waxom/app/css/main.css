@@ -402,6 +402,9 @@ h1, h2, h3, h4, h5, h6 {
   .last-projects__title {
     margin-top: 80px;
     margin-bottom: 20px; }
+  .last-projects__text {
+    display: inline-block;
+    max-width: 760px; }
   .last-projects__project {
     max-width: 370px;
     width: 100%;
@@ -439,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0; }
 
 .video {
-  width: 100vw; }
+  width: 100%; }
 
 .counters {
   background: #211b19;
